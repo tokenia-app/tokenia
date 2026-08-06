@@ -4,6 +4,9 @@
   # Tokenia
 
   [**Download for macOS**](https://tokenia.dev/download)
+
+  [![Downloads](https://img.shields.io/github/downloads/tokenia-app/tokenia/total.svg?style=flat)](https://github.com/tokenia-app/tokenia/releases)
+  [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg?style=flat)](https://tokenia.dev)
 </div>
 
 A macOS menu bar widget showing how much of your Claude Code usage limit is
