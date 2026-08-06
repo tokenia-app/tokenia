@@ -1,11 +1,10 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Tokenia logo" width="96" />
+  <img src="assets/logo.png" alt="Tokenia logo" width="160" />
 
   # Tokenia
 
-  [**Download for macOS**](https://tokenia.dev/download)
+  [<img src="assets/download-badge.svg" alt="Download app for macOS" height="56" />](https://tokenia.dev/download)
 
-  [![Downloads](https://img.shields.io/github/downloads/tokenia-app/tokenia/total.svg?style=flat)](https://github.com/tokenia-app/tokenia/releases)
   [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg?style=flat)](https://tokenia.dev)
 </div>
 
