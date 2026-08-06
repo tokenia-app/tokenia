@@ -3,6 +3,8 @@
 
   # Tokenia
 
+  A menu bar gauge for what's left of your Claude Code usage limit.
+
   [<img src="assets/download-badge.svg" alt="Download app for macOS" height="56" />](https://tokenia.dev/download)
 
   [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg?style=flat)](https://tokenia.dev)
