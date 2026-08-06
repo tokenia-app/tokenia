@@ -25,7 +25,7 @@ your traffic would breach this policy.
 
 If you activate a paid licence, Tokenia sends a validation request
 containing **only**: the licence key, an opaque machine identifier, and the
-application version. It carries no usage data, no quota figures, no
+application version. It carries no usage data, no usage-limit figures, no
 credentials, and no content of any kind.
 
 The machine identifier is a salted one-way hash computed on your device. The

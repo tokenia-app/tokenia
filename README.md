@@ -1,7 +1,7 @@
 # Tokenia
 
-A macOS menu bar widget showing how much Claude Code quota you have left, and
-when it resets.
+A macOS menu bar widget showing how much of your Claude Code usage limit is
+left, and when it resets.
 
 ```
 ◔   ← 5-hour and weekly windows, at a glance
@@ -17,14 +17,15 @@ subscription.
 ## Why it exists
 
 Claude Code tells you that you have hit your limit *after* you hit it. There
-is no public API to ask "how much is left" — Anthropic reports quota only in
-the headers of a real API response.
+is no public API to ask "how much is left" — Anthropic reports the usage
+limit only in the headers of a real API response.
 
 Tokenia reads those headers off the traffic you are already sending.
 
 **It never makes an API request of its own.** No polling, no keep-alive
-pings, no quota spent to measure quota. If Claude Code is idle, the reading
-simply goes stale — and the widget says so instead of pretending otherwise.
+pings, no usage limit spent just to measure the usage limit. If Claude Code
+is idle, the reading simply goes stale — and the widget says so instead of
+pretending otherwise.
 
 ## Privacy, not a promise
 

@@ -22,8 +22,8 @@ The trial is per person, not per installation. Reinstalling, using a
 different machine, or clearing application data does not start a new trial,
 and circumventing the trial period is a breach of this agreement.
 
-When the trial ends, Tokenia stops displaying quota data until a licence is
-activated. It does not disable, modify, or interfere with Claude Code, and it
+When the trial ends, Tokenia stops displaying usage-limit data until a
+licence is activated. It does not disable, modify, or interfere with Claude Code, and it
 releases `ANTHROPIC_BASE_URL` cleanly on uninstall — an expired trial must
 never leave your development environment in a broken state.
 
@@ -67,8 +67,9 @@ You may not:
 ## 4. Licence keys and validation
 
 A validation request carries **only** the licence key, an opaque machine
-identifier, and the application version. It carries no usage data, no quota
-figures, no credentials, and no content of any kind — see [PRIVACY.md](PRIVACY.md).
+identifier, and the application version. It carries no usage data, no
+usage-limit figures, no credentials, and no content of any kind — see
+[PRIVACY.md](PRIVACY.md).
 
 The machine identifier is a salted one-way hash computed on your device. The
 Licensor never receives a hardware serial number, a MAC address, or any
@@ -86,9 +87,9 @@ software you have paid for.
 Updates are provided at the Licensor's discretion and are included in the
 licence fee. No specific update, feature, or response time is promised.
 
-Tokenia depends on undocumented Anthropic response headers to read quota. If
-Anthropic changes or removes them, Tokenia may stop showing quota data
-through no fault of the Licensor. This is a known and disclosed risk, and is
+Tokenia depends on undocumented Anthropic response headers to read the usage
+limit. If Anthropic changes or removes them, Tokenia may stop showing
+usage-limit data through no fault of the Licensor. This is a known and disclosed risk, and is
 not grounds for a refund outside the period in §6.
 
 ## 6. Refunds
