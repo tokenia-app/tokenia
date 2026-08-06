@@ -1,4 +1,10 @@
-# Tokenia
+<div align="center">
+  <img src="assets/logo.png" alt="Tokenia logo" width="96" />
+
+  # Tokenia
+
+  [**Download for macOS**](https://tokenia.dev/download)
+</div>
 
 A macOS menu bar widget showing how much of your Claude Code usage limit is
 left, and when it resets.
