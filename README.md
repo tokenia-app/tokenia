@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Tokenia logo" width="160" />
+  <img src="assets/logo.png" alt="Tokenia logo" width="220" />
 
   # Tokenia
 
