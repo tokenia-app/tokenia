@@ -19,7 +19,7 @@ left, and when it resets.
 
 Click it for exact percentages, live countdowns to reset, and token spend.
 
-**[tokenia.dev](https://tokenia.dev)** · $9.99 once, free for 5 days, no
+**[tokenia.dev](https://tokenia.dev)** · $9.99 once, free for 7 days, no
 subscription.
 
 ---
