@@ -13,7 +13,7 @@ grants no right to use, copy, or redistribute it — see "Source code" below.
 
 ## 1. Trial
 
-Tokenia may be used free of charge for an evaluation period of **5 days**
+Tokenia may be used free of charge for an evaluation period of **7 days**
 from first launch, with no restriction on functionality during that period.
 No payment details, account, or email address are required to start the
 trial.
