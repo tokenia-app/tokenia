@@ -14,7 +14,7 @@ A macOS menu bar widget showing how much of your Claude Code usage limit is
 left, and when it resets.
 
 <p align="center">
-  <img src="assets/popover.png" alt="Tokenia's menu bar popover showing 5-hour and weekly usage windows" width="360" />
+  <img src="assets/showcase.png" alt="Tokenia showing usage across every Claude Code window at once" width="720" />
 </p>
 
 Click it for exact percentages, live countdowns to reset, and token spend.
