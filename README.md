@@ -49,15 +49,25 @@ through the local proxy that makes this possible. So:
 - Nothing is sent anywhere except `api.anthropic.com`, exactly as Claude Code
   would have sent it.
 
+And since 2026-08-25 it is not even a promise you have to take on trust: **the
+proxy — the part your token passes through — is open source** at
+[tokenia-app/tokenia-proxy](https://github.com/tokenia-app/tokenia-proxy),
+MIT-licensed, with the never-log rule pinned by a test
+([`SecurityTests.swift`](https://github.com/tokenia-app/tokenia-proxy/blob/main/Tests/TokeniaProxyTests/SecurityTests.swift))
+that runs in public CI on every change.
+
 Full policy: [PRIVACY.md](PRIVACY.md).
 
 ## This repository
 
-Tokenia's source is closed — see [LICENSE.md](LICENSE.md) for what that means
-and does not mean. This repository exists for the parts that are not the
-source: release notes, licensing and privacy terms, and a place to ask
-questions or report a problem.
+Tokenia is open-core. The proxy that handles your credentials is open source
+at [tokenia-app/tokenia-proxy](https://github.com/tokenia-app/tokenia-proxy);
+the widget, UI and licensing are closed — see [LICENSE.md](LICENSE.md) for
+what that means and does not mean. This repository exists for the parts that
+are not the source: release notes, licensing and privacy terms, and a place
+to ask questions or report a problem.
 
+- **The open proxy source:** [tokenia-proxy](https://github.com/tokenia-app/tokenia-proxy)
 - **Questions, bugs, feature requests:** [Discussions](../../discussions)
 - **Licence terms, trial, refunds:** [LICENSE.md](LICENSE.md)
 - **Privacy policy:** [PRIVACY.md](PRIVACY.md)
